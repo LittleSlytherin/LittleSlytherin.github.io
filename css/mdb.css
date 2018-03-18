@@ -6288,11 +6288,13 @@ button:focus {
 
 .card {
   font-weight: 400;
-  border-radius: .3rem; }
+  border-radius: 20px; }
+
   .card:not([class*="card-outline-"]) {
-    border: 0; }
+    border: 3px; }
+
   .card img {
-    border-radius: 2px 2px 0 0; }
+    border-radius: 6px 6px 0 0; }
   .card .card-body {
     position: relative; }
     .card .card-body h5 {
